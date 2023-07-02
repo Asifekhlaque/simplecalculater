@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cal-body">
+        <h1>Calculater</h1>
+        <div class="container">
+            <input type="number" placeholder="Enter Number" id="first_number">
+            <input type="number" placeholder="Enter Number" id="second_number">
+            <div class="btn-group">
+            <button onclick="sum()">+</button>
+            <button onclick="sub()">-</button>
+            <button onclick="mul()">*</button>
+            <button onclick="div()">/</button>
+            </div>
+            <p id="result"></p>
+        </div>    
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
